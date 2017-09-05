@@ -2,6 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
+## Styling
+
+This project uses the SASS using the '.scss' file extension, with the base 'styles.css' being the exception. All new components generate SASS files.
+
+## Angular Material
+
+This project uses Angular Material 2 (https://github.com/angular/material2).
+
+Angular Material Icons are used (https://material.io/icons/). A guide can be found here (https://google.github.io/material-design-icons/)
+
+The required Angular Material theme is included in 'styles.css'. A guide to changing or customizing the theme can be found at (https://material.angular.io/guide/theming).
+
+Angular Material Components used must be added to 'app.module.ts'. Each module shall be added to the "import {MaterialModule1, MaterialModule2} from '@angular/material';" line and added to the @NgModule imports array.
+
+## Routing
+
+Routing is compartmentalised in src/app/app-routing.module.ts
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
